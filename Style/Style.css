@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgrey;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 200px;
+    justify-items: center;
+
+}
+
+.char {
+    position: relative;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: darkred;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.pika {
+    position: relative;
+    width: 200px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.bulba {
+    position: relative;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: darkolivegreen;
+    font-weight: bold;
+    gap: 100px;
+    text-align: center;
+}
+
+
+.squir {
+    position: relative;
+    width: 200px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: darkblue;
+    font-weight: bold;
+    text-align: center;
+  
+}
+
+
+.char:hover {
+    transform: scale(1.05);
+    background-color: lightcoral;
+    color: #333;}
+
+
+.pika:hover {
+    transform: scale(1.05);
+    background-color: lightyellow;
+    color: #333;}
+
+
+.squir:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+    color: #333;
+}
+
+
+.bulba:hover {
+    transform: scale(1.05);
+    background-color: lightgreen;
+    color: #333;
+}
+
+
+.Ni{
+    text-decoration: none;
+    text-align: center;
+}
